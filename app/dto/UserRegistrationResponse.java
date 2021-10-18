@@ -1,23 +1,23 @@
 package dto;
 
 public class UserRegistrationResponse {
- private  Integer StatusCode;
- private  String StatusName;
+ private  Integer statusCode;
+ private  String statusName;
 
 
     public Integer getStatusCode() {
-        return StatusCode;
+        return statusCode;
     }
 
     public void setStatusCode(Integer statusCode) {
-        StatusCode = statusCode;
+        this.statusCode = statusCode;
     }
 
     public String getStatusName() {
-        return StatusName;
+        return statusName;
     }
 
     public void setStatusName(String statusName) {
-        StatusName = statusName;
+        this.statusName = statusName;
     }
 }

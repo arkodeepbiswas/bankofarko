@@ -6,7 +6,7 @@ public class ProfileDetailsResponse {
     private String fname;
     private String lname;
     private String email;
-    private Integer mobile;
+    private String mobile;
     private String dob;
     private String aadharNo;
     private String pan;
@@ -45,16 +45,16 @@ public class ProfileDetailsResponse {
         this.email = email;
     }
 
-    public Integer getMobile() {
+    public String getDob() {
+        return dob;
+    }
+
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(Integer mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
-    }
-
-    public String getDob() {
-        return dob;
     }
 
     public void setDob(String dob) {

@@ -7,7 +7,7 @@ public class ViewListResponse {
     private Integer accountStatus;
     private String dob;
     private String aadharNo;
-    private Integer mobile;
+    private String mobile;
     private String email;
     private Integer statusCode;
     private String statusName;
@@ -29,13 +29,7 @@ public class ViewListResponse {
         this.aadharNo = aadharNo;
     }
 
-    public Integer getMobile() {
-        return mobile;
-    }
 
-    public void setMobile(Integer mobile) {
-        this.mobile = mobile;
-    }
 
     public String getEmail() {
         return email;
@@ -69,6 +63,13 @@ public class ViewListResponse {
         this.accountStatus = accountStatus;
     }
 
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
 
     public Integer getStatusCode() {
         return statusCode;

@@ -86,7 +86,7 @@ create table user (
   fname                         varchar(255),
   lname                         varchar(255),
   dob                           datetime(6),
-  mobile                        integer,
+  mobile                        varchar(255),
   email                         varchar(255),
   pan                           varchar(255),
   aadhar_no                     varchar(255),

@@ -32,13 +32,6 @@ public class User {
         this.lname = lname;
     }
 
-    public Integer getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(Integer mobile) {
-        this.mobile = mobile;
-    }
 
     public String getEmail() {
         return email;
@@ -68,6 +61,13 @@ public class User {
         return createdOn;
     }
 
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
     public void setCreatedOn(Date createdOn) {
         this.createdOn = createdOn;
     }
@@ -110,7 +110,7 @@ public class User {
     private Date dob;
 
     @Column(name = "mobile")
-    private Integer mobile;
+    private String mobile;
 
     @Column(name = "email")
     private String email;

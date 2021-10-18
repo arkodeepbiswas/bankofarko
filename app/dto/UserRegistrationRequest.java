@@ -12,7 +12,7 @@ public class UserRegistrationRequest {
     private String lname;
     private String pswd;
     private Date dob;
-    private Integer mobile;
+    private String mobile;
     private String email;
     private String pan;
     private String aadharNo;
@@ -70,11 +70,11 @@ public class UserRegistrationRequest {
         this.aadharNo = aadharNo;
     }
 
-    public Integer getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(Integer mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 
