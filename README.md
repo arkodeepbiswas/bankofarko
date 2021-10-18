@@ -1,8 +1,6 @@
 # The Swiizz Bank
 <div align="center">
-<a>
-<img src="mywebsite/swiizz.jpg" alt="Logo" width="80" height="80">
-</a>
+
 <h3 align="center">THE SWIIZZ BANK</h3>
   </div>
   
